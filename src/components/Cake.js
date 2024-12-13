@@ -147,7 +147,7 @@ const Cake = () => {
     <>
       <div className="text-center">
         <h3 className="cake-off">❣ Happy Birthday Retarded ! ❣</h3>
-        <p className="cake-off">🎶🍑🎂 Rizzy GyattDay to Mew… 🤫👈🎶 Pookie is literally 👌 in her 👩 Birthday 💐 Era… chat, can 👁️ we 👶👥 get a W? 💯🧚 HAPPY BIRTHDAY 🎁 😸🩵 the ultimate 💯 RIZZ Lord 👑 with the phattest Level 10 GYATT 🔛🔼 in the universe 💘😜🍀🧿 eight TEEN ‍♀️🫦never 🚫 looked 👀 so SIGMA 😩🐺. Let’s 👍 celebrATE 👅🥂 this GOON-MASTER with some 🐅 CAKE 🍑🍰🎂 don’t ⌛ forget 👋🏾 to BLOW 🍃 out 2️⃣4️⃣ 👴 candles so all 💯 your 👉 wishes 🙏 and CUM 💦💦 true. 🐵 Send 📩💌 this message 📝 to 🔟 other 👹 GAMERS 👦🎮 to send 📩📬📮 them dirty thoughts 🤔 birthday 💐 prayers and ROBUX 🙏🙏 </p>
+        <p className="cake-off">🎶🍑🎂 Rizzy GyattDay to Mew… 🤫👈🎶 Pookie is literally 👌 in her 👩 Birthday 💐 Era… chat, can 👁️ we 👶👥 get a W? 💯🧚 HAPPY BIRTHDAY 🎁 😸🩵 the ultimate 💯 RIZZ Lord 👑 with the phattest Level 10 GYATT 🔛🔼 in the universe 💘😜🍀🧿 eight TEEN 18+ HARAM‍♀️🫦never 🚫 looked 👀 so SIGMA 😩🐺. Let’s 👍 celebrATE 👅🥂 this GOON-MASTER with some 🐅 CAKE 🍑🍰🎂 don’t ⌛ forget 👋🏾 to BLOW 🍃 out candles so all 💯 your 👉 wishes 🙏 and CUM 💦💦 true. 🐵 Send 📩💌 this message 📝 to 🔟 other 👹 GAMERS 👦🎮 to send 📩📬📮 them dirty thoughts 🤔 birthday 💐 prayers and ROBUX 🙏🙏 </p>
         <h2>Candles Remaining: {candles.length - extinguishedCandles.length}</h2>
       </div>
       <div className="cake">
