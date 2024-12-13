@@ -1,4 +1,6 @@
 import React, { useState, useRef } from 'react';
+import gyatDayAudio from "./audio/gyatDay.mp3";
+import audioFart from "./audio/fart.mp3";
 import Cake from "./components/Cake";
 import './App.css';
 
@@ -18,13 +20,13 @@ const App = () => {
   };
 
   const playGyatDay = () => {
-    const gyatAudio = new Audio("/sounds/gyatDay.mp3");
+    const gyatAudio = new Audio(gyatDayAudio);
     gyatAudio.play().catch((error) => {
       console.error("Error playing audio:", error);
     });
 
     gyatAudio.onended = () => {
-      const fartAudio = new Audio("/sounds/fart.mp3");
+      const fartAudio = new Audio(audioFart);
       fartAudio.play();
     }
   };

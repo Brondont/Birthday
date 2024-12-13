@@ -1,4 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
+import imNewBroAudio from "../audio/imNewBro.mp3";
+import youDigginInMeAudio from "../audio/youDigginInMe.mp3";
 
 const Cake = () => {
   const [candles, setCandles] = useState([]);
@@ -8,7 +10,6 @@ const Cake = () => {
   const analyserRef = useRef(null);
   const micStreamRef = useRef(null);
   const [isEnd, setIsEnd] = useState(false);
-  const [isEndEnd, setIsEndEnd] = useState(false);
 
 
   const handleClick = (e) => {
@@ -25,12 +26,12 @@ const Cake = () => {
   };
 
   const playImNew = () => {
-    const imNewSound = new Audio("/sounds/imNewBro.mp3");
+    const imNewSound = new Audio(imNewBroAudio);
     imNewSound.play();
   }
 
   const playDigginInMe = () => {
-    const inMeSound = new Audio("/sounds/youDigginInMe.mp3");
+    const inMeSound = new Audio(youDigginInMeAudio);
     inMeSound.play();
   }
 
@@ -133,7 +134,6 @@ const Cake = () => {
     if (!isEnd && candles.length > 0 && extinguishedCandles.length === candles.length) {
       playDigginInMe();
       setIsEnd(true);
-      setIsEndEnd(true);
     } else {
       setIsEnd(false);
     }
